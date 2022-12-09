@@ -1,0 +1,19 @@
+/* formas en la que podemos llamar ciertas etiquetas para aplicar los estilos:*/
+
+/* por el elemento, es decir por la etiqueta */
+p{
+    color: blue;
+    font-size: 40px;
+}
+
+/* por clases */
+
+.parrafo {
+    color: red;
+}
+
+/* ID */
+#texto {
+    color: green;
+    font-size: 45px;
+}

@@ -1,0 +1,30 @@
+/* estas son las clases */
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left:0;
+    background-color: #13a4a4;
+}
+.main-nav__item{
+    display: inline-block;
+}
+/* esta es la clase especificando que elemento de la clase */
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+
+}
+/* estas son las pseudoclases: Define el estilo de un estado especial de un elemento */
+.main-nav__item a:hover{
+    color: blue;
+}
+.main-nav__item a:active{
+    color: red;
+}
+
+/* estas son los pseudoelementos: Define el estilo de una parte específica de un elemento */
+.main-nav__item a::after{
+    content: " | ";
+}

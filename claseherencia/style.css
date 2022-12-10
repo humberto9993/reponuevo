@@ -1,0 +1,8 @@
+html{
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* EL H1 ESTA CONTENIDO EN ALGUN CONTENEDOR DE HTML, POR ESO HEREDA LA TAMAÑO DE FUENTE DEL HTML */
+h1{
+    font-size: inherit;
+}

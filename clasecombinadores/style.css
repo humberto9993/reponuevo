@@ -1,0 +1,22 @@
+/* ejemplo de hermano cercano */
+
+/* h2 + p {
+    color: red;
+} */
+
+/* ejemplo de un hermano general */
+
+h2 ~ p {
+    color: red;
+}
+
+/* ejemplo de hijos */
+
+div > p {
+    color: blue;
+}
+
+/* ejemplo de descendiente */
+div p {
+    color: blueviolet;
+}

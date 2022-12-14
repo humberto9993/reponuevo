@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.parent {
+    font-size: 1.6rem;
+    background-color:lightgrey;
+    min-height: 100vh; 
+    min-width: 100vw;  
+    vertical-align: middle; 
+    text-align: center;
+    line-height: 4rem;
+    padding: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    max-width: 300px;
+    width: 100%;
+    background-color: brown;
+    padding: 20px 0;
+    position: absolute;
+    top: -52px;
+}
+
+.text {
+    max-width: 800px;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 30px 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.parent {
+    font-size: 1.6rem;
+    background-color:lightgrey;
+    min-height: 100vh; 
+    min-width: 100vw;  
+}
+
+.parent h1 {
+    font-size: 1.6rem;
+    background-color: brown;
+    position: absolute;
+}
+
+.parent > p {
+    font-size: 3.2rem;
+    background-color: blue;
+}
